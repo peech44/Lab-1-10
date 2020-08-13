@@ -2,6 +2,8 @@
 #include "Header.h"
 using namespace std;
 
+
+
 List::~List() {
 	for (Node* p; !isEmpty(); ) {
 		p = head->next;

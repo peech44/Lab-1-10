@@ -7,6 +7,7 @@ public:
 	int info;
 	Node* next, * prev;
 	Node() { next = prev = 0; }
+	
 	Node(int el, Node* n = 0, Node* p = 0) { info = el; next = n; prev = p; }
 };
 
