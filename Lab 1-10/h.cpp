@@ -3,7 +3,8 @@
 using namespace std;
 
 
-
+//this is destructor class
+//for destroy linkedlist
 List::~List() {
 	for (Node* p; !isEmpty(); ) {
 		p = head->next;
